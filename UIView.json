@@ -1,0 +1,1226 @@
+[
+  {
+    "category": "type property", 
+    "isAtomic": "true", 
+    "name": "layerClass", 
+    "class": "UIView", 
+    "type": "Swift.AnyClass", 
+    "id": "46a47aa1-f5a6-4be3-92cc-c5b427173e02"
+  }, 
+  {
+    "category": "init", 
+    "isAtomic": "true", 
+    "name": "init", 
+    "parameters": "frame: CGRect", 
+    "class": "UIView", 
+    "id": "b29308e7-6a2d-4eca-9db7-4baed1a77a0c"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "isUserInteractionEnabled", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "8c5e6f86-a6a5-4eba-bd31-ca04e8961273"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "tag", 
+    "class": "UIView", 
+    "type": "Int", 
+    "id": "375edd37-9516-480f-a348-e9006c6470ef"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "layer", 
+    "class": "UIView", 
+    "type": "CALayer", 
+    "id": "6f0fe034-8831-498b-95de-c72bcf855a15"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "canBecomeFocused", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "de27d50a-0a82-4011-82a7-ca99318a0031"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "isFocused", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "b66908b2-f015-4319-8a21-6d6c7ef29fb5"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "semanticContentAttribute", 
+    "class": "UIView", 
+    "type": "UISemanticContentAttribute", 
+    "id": "b6915523-cdbd-4a42-bfcf-0581403a70ae"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "userInterfaceLayoutDirection", 
+    "parameters": "for attribute: UISemanticContentAttribute", 
+    "class": "UIView", 
+    "id": "b8a2a48d-3919-4ec1-86a4-40f1874deb7f"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "userInterfaceLayoutDirection", 
+    "parameters": "for semanticContentAttribute: UISemanticContentAttribute, relativeTo layoutDirection: UIUserInterfaceLayoutDirection", 
+    "class": "UIView", 
+    "id": "67274dc4-33e9-465b-87dd-c7a01e01ef15"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "effectiveUserInterfaceLayoutDirection", 
+    "class": "UIView", 
+    "type": "UIUserInterfaceLayoutDirection", 
+    "id": "56c3b1d9-0e15-404e-bef5-f03847265ec8"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "frame", 
+    "class": "UIView", 
+    "type": "CGRect", 
+    "id": "3f1e3b7a-fe33-4287-b946-538e2e7100c5"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "bounds", 
+    "class": "UIView", 
+    "type": "CGRect", 
+    "id": "094bcc80-437f-4b16-ba00-69fc31b77edc"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "center", 
+    "class": "UIView", 
+    "type": "CGPoint", 
+    "id": "ee8d73e1-87b1-43b0-bd68-2b76ac9cc994"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "transform", 
+    "class": "UIView", 
+    "type": "CGAffineTransform", 
+    "id": "a50da9e5-aadd-4760-ab09-de0325226446"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "contentScaleFactor", 
+    "class": "UIView", 
+    "type": "CGFloat", 
+    "id": "c5f5e8ee-bfe3-4c3c-9216-4095ed51a40b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "isMultipleTouchEnabled", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "cc7c0100-2134-4a08-9cb5-d5f75a0c967a"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "isExclusiveTouch", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "b95037d0-3cb8-4770-9004-ff872ff2fd21"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "hitTest", 
+    "parameters": "_ point: CGPoint, with event: UIEvent?", 
+    "class": "UIView", 
+    "id": "65358fbc-d7ef-4277-83e5-fb53982a83c2"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "point", 
+    "parameters": "inside point: CGPoint, with event: UIEvent?", 
+    "class": "UIView", 
+    "id": "b21d8bf0-1852-4957-a6cd-693a85e3d585"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "convert", 
+    "parameters": "_ point: CGPoint, to view: UIView?", 
+    "class": "UIView", 
+    "id": "9c9d7010-0008-435a-b476-ba9ca2ce3c54"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "convert", 
+    "parameters": "_ point: CGPoint, from view: UIView?", 
+    "class": "UIView", 
+    "id": "6cce7655-7555-4b12-9f97-e1e0ac020e67"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "convert", 
+    "parameters": "_ rect: CGRect, to view: UIView?", 
+    "class": "UIView", 
+    "id": "d0cf9bc1-fbbe-4d0a-b21d-75fb4c792961"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "convert", 
+    "parameters": "_ rect: CGRect, from view: UIView?", 
+    "class": "UIView", 
+    "id": "73be4a64-99e4-4129-a113-e618eec68b9d"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "autoresizesSubviews", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "69d57c97-11db-4aee-9d91-6affd898d36b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "autoresizingMask", 
+    "class": "UIView", 
+    "type": "UIViewAutoresizing", 
+    "id": "4740e01c-e917-4dde-8ba5-a2b21f37900c"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "sizeThatFits", 
+    "parameters": "_ size: CGSize", 
+    "class": "UIView", 
+    "id": "45b79a87-a557-412e-8650-9dc48842018e"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "sizeToFit", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "ee81e95f-9ec0-4fd7-bb8a-5f9fa6f1fb3e"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "superview", 
+    "class": "UIView", 
+    "type": "UIView?", 
+    "id": "8088f62f-c8a4-405c-a416-2d2491a9156a"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "subviews", 
+    "class": "UIView", 
+    "type": "[UIView]", 
+    "id": "d5ae3640-1a76-4bf7-9301-5cfaaae73e6b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "window", 
+    "class": "UIView", 
+    "type": "UIWindow?", 
+    "id": "9e51afec-583b-4753-9271-4699c5f98b57"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "removeFromSuperview", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "6fe2cd00-f846-4dc1-90ed-199d54e40e92"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "insertSubview", 
+    "parameters": "_ view: UIView, at index: Int", 
+    "class": "UIView", 
+    "id": "afa10f8e-8e40-4e5b-a13a-4192e6917f6d"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "exchangeSubview", 
+    "parameters": "at index1: Int, withSubviewAt index2: Int", 
+    "class": "UIView", 
+    "id": "2a6fd34e-cb1f-40f7-9ecd-09a9cc801f70"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "addSubview", 
+    "parameters": "_ view: UIView", 
+    "class": "UIView", 
+    "id": "e650ec88-8d12-43c7-a141-98d3f84708b1"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "insertSubview", 
+    "parameters": "_ view: UIView, belowSubview siblingSubview: UIView", 
+    "class": "UIView", 
+    "id": "40bd741c-a51d-4c57-b5ca-3320c8d8b7ca"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "insertSubview", 
+    "parameters": "_ view: UIView, aboveSubview siblingSubview: UIView", 
+    "class": "UIView", 
+    "id": "1ef191db-b518-4aa7-a3be-f2efd3494cfb"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "bringSubview", 
+    "parameters": "toFront view: UIView", 
+    "class": "UIView", 
+    "id": "1684e0d9-8ced-486f-aa51-40d4ce025c4e"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "sendSubview", 
+    "parameters": "toBack view: UIView", 
+    "class": "UIView", 
+    "id": "1f4f004d-4542-4457-8ae1-36b210a8e941"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "didAddSubview", 
+    "parameters": "_ subview: UIView", 
+    "class": "UIView", 
+    "id": "0e2259db-1e54-44de-8494-7f097845bdfd"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "willRemoveSubview", 
+    "parameters": "_ subview: UIView", 
+    "class": "UIView", 
+    "id": "7125b809-9956-41b5-9eb3-1963b430b80c"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "willMove", 
+    "parameters": "toSuperview newSuperview: UIView?", 
+    "class": "UIView", 
+    "id": "af26678c-3566-4121-a06b-db52e70a86da"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "didMoveToSuperview", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "df6ba0cd-1a1b-46c4-ae2d-8b197c3376fe"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "willMove", 
+    "parameters": "toWindow newWindow: UIWindow?", 
+    "class": "UIView", 
+    "id": "6a5143d5-59c4-4029-adde-d0c39009f0fa"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "didMoveToWindow", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "93b6f454-87b2-4f13-a803-8ac148dfd5f1"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "isDescendant", 
+    "parameters": "of view: UIView", 
+    "class": "UIView", 
+    "id": "a20ee6ab-54b8-42f3-abb9-a0e0efe10473"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "viewWithTag", 
+    "parameters": "_ tag: Int", 
+    "class": "UIView", 
+    "id": "98e7265e-1f40-45ff-b6f5-63479ee542e1"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "setNeedsLayout", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "cd18ca73-94c4-4d1b-b29d-6256cd1e97a6"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "layoutIfNeeded", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "89370a2c-7f54-4da8-8801-cc8fd733d914"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "layoutSubviews", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "16c566d8-2f7b-4bf3-8d7f-af4c014cb1c3"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "layoutMargins", 
+    "class": "UIView", 
+    "type": "UIEdgeInsets", 
+    "id": "34a8629c-a192-4988-8c06-ee656c5035c5"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "preservesSuperviewLayoutMargins", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "e93d8b69-896b-449a-bd40-a4c1f200833f"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "layoutMarginsDidChange", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "fce91965-1518-4a41-b4ac-0c2d02831066"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "layoutMarginsGuide", 
+    "class": "UIView", 
+    "type": "UILayoutGuide", 
+    "id": "78fa144a-906a-4304-9ca8-eac42272addb"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "readableContentGuide", 
+    "class": "UIView", 
+    "type": "UILayoutGuide", 
+    "id": "74a41ac2-ffee-4992-931e-7fd0f67332a8"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "draw", 
+    "parameters": "_ rect: CGRect", 
+    "class": "UIView", 
+    "id": "06bfbfc2-a079-4e74-beb3-830e20acd42a"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "setNeedsDisplay", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "d5d0109e-0857-4ea0-9f26-59451400052e"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "setNeedsDisplay", 
+    "parameters": "_ rect: CGRect", 
+    "class": "UIView", 
+    "id": "faf9484c-8076-4fcd-987e-81ba901ce561"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "clipsToBounds", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "65e45ada-3a54-4e74-b991-d710103d42f4"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "backgroundColor", 
+    "class": "UIView", 
+    "type": "UIColor?", 
+    "id": "1a1dbb44-5b16-4cdd-a8f6-bb3f97a4e711"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "alpha", 
+    "class": "UIView", 
+    "type": "CGFloat", 
+    "id": "6409e012-e008-46d3-b120-d4e1187c4745"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "isOpaque", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "ea66a4da-5cad-4739-be52-5ce54ac3e57c"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "clearsContextBeforeDrawing", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "c88d7c63-3dfb-4e43-b11f-56663eb648c3"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "isHidden", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "3bf97c36-b916-4067-a2e5-b9c9ed43f446"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "contentMode", 
+    "class": "UIView", 
+    "type": "UIViewContentMode", 
+    "id": "c01138d4-0922-4983-b8c3-8fc3caca15a3"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "mask", 
+    "class": "UIView", 
+    "type": "UIView?", 
+    "id": "23df546e-d35e-4eb2-89a8-2f2e514cd10b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "tintColor", 
+    "class": "UIView", 
+    "type": "UIColor!", 
+    "id": "f3f70e1e-badf-4b72-b991-e43d1ecba15b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "tintAdjustmentMode", 
+    "class": "UIView", 
+    "type": "UIViewTintAdjustmentMode", 
+    "id": "ef3dc8f6-8fde-45b2-9529-e3034bf8c492"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "tintColorDidChange", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "e80572bd-444f-4e14-b113-2bcf667c60fb"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "beginAnimations", 
+    "parameters": "_ animationID: String?, context: UnsafeMutableRawPointer?", 
+    "class": "UIView", 
+    "id": "5a112781-ab65-4793-868b-d4463e4ab754"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "commitAnimations", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "bbf4e2de-0154-45c6-8bac-cd423eb37ede"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationDelegate", 
+    "parameters": "_ delegate: Any?", 
+    "class": "UIView", 
+    "id": "a1ce7f10-23df-4743-8d90-26fc588e349d"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationWillStart", 
+    "parameters": "_ selector: Selector?", 
+    "class": "UIView", 
+    "id": "a8e6e23b-c2ba-49b5-b27e-9d5110181d66"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationDidStop", 
+    "parameters": "_ selector: Selector?", 
+    "class": "UIView", 
+    "id": "0bd954eb-93e9-410a-a88c-62b96a6361f1"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationDuration", 
+    "parameters": "_ duration: TimeInterval", 
+    "class": "UIView", 
+    "id": "577d5357-9f56-4fea-a7b5-ae9e9163c61f"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationDelay", 
+    "parameters": "_ delay: TimeInterval", 
+    "class": "UIView", 
+    "id": "ff306c3b-7305-4709-abca-1fa5a700bfaf"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationStart", 
+    "parameters": "_ startDate: Date", 
+    "class": "UIView", 
+    "id": "d84d57a0-276c-47db-8be7-813c262a7db9"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationCurve", 
+    "parameters": "_ curve: UIViewAnimationCurve", 
+    "class": "UIView", 
+    "id": "a0742f51-f46c-4a58-a27b-d70fefcca5a4"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationRepeatCount", 
+    "parameters": "_ repeatCount: Float", 
+    "class": "UIView", 
+    "id": "3e167952-f35b-48d3-9f52-ea19a49e2f43"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationRepeatAutoreverses", 
+    "parameters": "_ repeatAutoreverses: Bool", 
+    "class": "UIView", 
+    "id": "aff2b78d-6e17-436f-8288-8e89d5e3674b"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationBeginsFromCurrentState", 
+    "parameters": "_ fromCurrentState: Bool", 
+    "class": "UIView", 
+    "id": "9932bb68-c5d9-4870-9769-692ff6e44f10"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationTransition", 
+    "parameters": "_ transition: UIViewAnimationTransition, for view: UIView, cache: Bool", 
+    "class": "UIView", 
+    "id": "78130836-7004-44b2-86f2-f714fa45f27a"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "setAnimationsEnabled", 
+    "parameters": "_ enabled: Bool", 
+    "class": "UIView", 
+    "id": "cf9ab7ec-b2a8-411c-9c1f-729dcf92c009"
+  }, 
+  {
+    "category": "type property", 
+    "isAtomic": "true", 
+    "name": "areAnimationsEnabled", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "de2170ed-a235-4bf6-afe4-5a255a596697"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "performWithoutAnimation", 
+    "parameters": "_ actionsWithoutAnimation: () -> Swift.Void", 
+    "class": "UIView", 
+    "id": "f208dabc-df5a-4c61-a1e8-f25e8bd982e8"
+  }, 
+  {
+    "category": "type property", 
+    "isAtomic": "true", 
+    "name": "inheritedAnimationDuration", 
+    "class": "UIView", 
+    "type": "TimeInterval", 
+    "id": "ded4f89c-a1d3-4089-8b5b-419485163f57"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "animate", 
+    "parameters": "withDuration duration: TimeInterval, delay: TimeInterval, options: UIViewAnimationOptions = [], animations: @escaping () -> Swift.Void, completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "3e21e37c-c3ed-4f07-bb90-ba1579c0cbb9"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "animate", 
+    "parameters": "withDuration duration: TimeInterval, animations: @escaping () -> Swift.Void, completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "e88c7094-81f6-44ed-8bdf-4b435a0ae890"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "animate", 
+    "parameters": "withDuration duration: TimeInterval, animations: @escaping () -> Swift.Void", 
+    "class": "UIView", 
+    "id": "52aafff7-667a-446e-9e43-bf2c2a3e0ba3"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "animate", 
+    "parameters": "withDuration duration: TimeInterval, delay: TimeInterval, usingSpringWithDamping dampingRatio: CGFloat, initialSpringVelocity velocity: CGFloat, options: UIViewAnimationOptions = [], animations: @escaping () -> Swift.Void, completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "b014127d-1afa-4973-a617-838cfcc7c63f"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "transition", 
+    "parameters": "with view: UIView, duration: TimeInterval, options: UIViewAnimationOptions = [], animations: (() -> Swift.Void)?, completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "0d56fc37-08f7-4de6-8881-ac9d0146556f"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "transition", 
+    "parameters": "from fromView: UIView, to toView: UIView, duration: TimeInterval, options: UIViewAnimationOptions = [], completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "373834a1-a585-4c85-95d9-a8fe5e991797"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "perform", 
+    "parameters": "_ animation: UISystemAnimation, on views: [UIView], options: UIViewAnimationOptions = [], animations parallelAnimations: (() -> Swift.Void)?, completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "1041e4e1-2e2b-4419-bd1d-d2befdac53ae"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "animateKeyframes", 
+    "parameters": "withDuration duration: TimeInterval, delay: TimeInterval, options: UIViewKeyframeAnimationOptions = [], animations: @escaping () -> Swift.Void, completion: ((Bool) -> Swift.Void)? = nil", 
+    "class": "UIView", 
+    "id": "b054f3cb-2770-4974-8fc4-d5e6a51d989c"
+  }, 
+  {
+    "category": "type method", 
+    "isAtomic": "true", 
+    "name": "addKeyframe", 
+    "parameters": "withRelativeStartTime frameStartTime: Double, relativeDuration frameDuration: Double, animations: @escaping () -> Swift.Void", 
+    "class": "UIView", 
+    "id": "cabd78c6-8e3d-4d43-9c59-a3b20c25ed32"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "gestureRecognizers", 
+    "class": "UIView", 
+    "type": "[UIGestureRecognizer]?", 
+    "id": "8f3ac37f-539e-4e95-af07-0cd59c205d03"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "addGestureRecognizer", 
+    "parameters": "_ gestureRecognizer: UIGestureRecognizer", 
+    "class": "UIView", 
+    "id": "b5a30cf4-90fc-4373-80f4-f819cf55cec3"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "removeGestureRecognizer", 
+    "parameters": "_ gestureRecognizer: UIGestureRecognizer", 
+    "class": "UIView", 
+    "id": "2397465f-dc31-463e-b9c8-aa0834731c83"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "gestureRecognizerShouldBegin", 
+    "parameters": "_ gestureRecognizer: UIGestureRecognizer", 
+    "class": "UIView", 
+    "id": "e8571797-96e3-4a87-9987-59901e893b58"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "addMotionEffect", 
+    "parameters": "_ effect: UIMotionEffect", 
+    "class": "UIView", 
+    "id": "342c32a2-ad26-4a39-a665-040208606564"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "removeMotionEffect", 
+    "parameters": "_ effect: UIMotionEffect", 
+    "class": "UIView", 
+    "id": "4f31c774-89f3-4803-bcfb-3fadf6a2807b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "motionEffects", 
+    "class": "UIView", 
+    "type": "[UIMotionEffect]", 
+    "id": "4c90830c-6bef-4c60-8b38-918f23ddbf0b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "constraints", 
+    "class": "UIView", 
+    "type": "[NSLayoutConstraint]", 
+    "id": "ec13009b-b586-4754-86d4-7482d17d2a28"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "addConstraint", 
+    "parameters": "_ constraint: NSLayoutConstraint", 
+    "class": "UIView", 
+    "id": "1b751b19-d664-4fa0-b607-9e9015c0efd5"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "addConstraints", 
+    "parameters": "_ constraints: [NSLayoutConstraint]", 
+    "class": "UIView", 
+    "id": "fc036494-5674-4af5-9149-cb5728269381"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "removeConstraint", 
+    "parameters": "_ constraint: NSLayoutConstraint", 
+    "class": "UIView", 
+    "id": "e33bfbfe-13ae-42f5-950e-8d8606ea7585"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "removeConstraints", 
+    "parameters": "_ constraints: [NSLayoutConstraint]", 
+    "class": "UIView", 
+    "id": "d02d9d51-9e53-46eb-afdc-713d0fcc2326"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "updateConstraintsIfNeeded", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "3a5112ae-bd3c-4d1b-a13e-63707888c846"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "updateConstraints", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "e3001a8d-ae76-4e77-883b-8bff3d46136d"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "needsUpdateConstraints", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "488cbd81-3b5c-4c9d-843d-a54ac571edbf"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "setNeedsUpdateConstraints", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "09801168-19b1-445e-94c8-ad08b77d617e"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "translatesAutoresizingMaskIntoConstraints", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "99bcea82-b5bb-4e0c-b3c5-f1be5a4f6734"
+  }, 
+  {
+    "category": "type property", 
+    "isAtomic": "true", 
+    "name": "requiresConstraintBasedLayout", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "ad8414a1-ddfb-4dd2-9fde-116880c84166"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "alignmentRect", 
+    "parameters": "forFrame frame: CGRect", 
+    "class": "UIView", 
+    "id": "e366c3d5-8b5f-4aeb-87f6-a59da22caaaf"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "frame", 
+    "parameters": "forAlignmentRect alignmentRect: CGRect", 
+    "class": "UIView", 
+    "id": "a1f88359-876e-4950-b74a-da81cf80ce65"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "alignmentRectInsets", 
+    "class": "UIView", 
+    "type": "UIEdgeInsets", 
+    "id": "d55466d5-2340-4c7e-88d3-ca4714837942"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "forBaselineLayout", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "8ad71751-e1a1-44ea-977d-3ef25f30b274"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "forFirstBaselineLayout", 
+    "class": "UIView", 
+    "type": "UIView", 
+    "id": "f904322e-e7ee-4a00-a093-fe833bbd210a"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "forLastBaselineLayout", 
+    "class": "UIView", 
+    "type": "UIView", 
+    "id": "1f713ebd-0a5b-4c9c-a3a6-8082c46affb5"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "intrinsicContentSize", 
+    "class": "UIView", 
+    "type": "CGSize", 
+    "id": "19365bde-fbb5-49ae-9b7e-96e57a9779ee"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "invalidateIntrinsicContentSize", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "8c287d35-3cce-4bf2-bb70-c4e11f7199f0"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "contentHuggingPriority", 
+    "parameters": "for axis: UILayoutConstraintAxis", 
+    "class": "UIView", 
+    "id": "c311835a-1c5b-414d-b40f-268f7d9d8621"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "setContentHuggingPriority", 
+    "parameters": "_ priority: UILayoutPriority, for axis: UILayoutConstraintAxis", 
+    "class": "UIView", 
+    "id": "9611c027-b3e6-4b1a-800c-90f527f03550"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "contentCompressionResistancePriority", 
+    "parameters": "for axis: UILayoutConstraintAxis", 
+    "class": "UIView", 
+    "id": "fdc01091-29ba-4bc5-a2ef-604ef41e354a"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "setContentCompressionResistancePriority", 
+    "parameters": "_ priority: UILayoutPriority, for axis: UILayoutConstraintAxis", 
+    "class": "UIView", 
+    "id": "724ce393-cd78-4389-bdc7-7fdda3d6e356"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "systemLayoutSizeFitting", 
+    "parameters": "_ targetSize: CGSize", 
+    "class": "UIView", 
+    "id": "d1099330-4a86-42e6-ba52-5aa61a2df3ce"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "systemLayoutSizeFitting", 
+    "parameters": "_ targetSize: CGSize, withHorizontalFittingPriority horizontalFittingPriority: UILayoutPriority, verticalFittingPriority: UILayoutPriority", 
+    "class": "UIView", 
+    "id": "c446956b-b093-439a-bdb2-d3a5550da9ab"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "layoutGuides", 
+    "class": "UIView", 
+    "type": "[UILayoutGuide]", 
+    "id": "ef54e42f-33b8-4641-bfbe-53eb55384e42"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "addLayoutGuide", 
+    "parameters": "_ layoutGuide: UILayoutGuide", 
+    "class": "UIView", 
+    "id": "ec6c3b4a-d556-489a-be7d-34cfc5b424be"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "removeLayoutGuide", 
+    "parameters": "_ layoutGuide: UILayoutGuide", 
+    "class": "UIView", 
+    "id": "544b8a2f-edee-42a2-abd2-8569d1ff702b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "leadingAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutXAxisAnchor", 
+    "id": "58b3028e-96cf-499e-be4f-33fb4474fce9"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "trailingAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutXAxisAnchor", 
+    "id": "c29082fa-6c5f-4263-bc14-1581cba83fba"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "leftAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutXAxisAnchor", 
+    "id": "45c2ae0d-0b49-492c-9321-609d49e39c25"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "rightAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutXAxisAnchor", 
+    "id": "28ebf918-cb8e-4ca2-91c9-fab05290152c"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "topAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutYAxisAnchor", 
+    "id": "00b267b9-b1c5-4623-af68-31dab98341d1"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "bottomAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutYAxisAnchor", 
+    "id": "422bbc20-a672-45cd-854d-0dfbc7ae6213"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "widthAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutDimension", 
+    "id": "337d7c19-3c48-4ae1-a973-727fe118f8e1"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "heightAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutDimension", 
+    "id": "70add066-5937-4230-8487-d096ceab0bf4"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "centerXAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutXAxisAnchor", 
+    "id": "c06b84ff-6130-43fd-afd9-58960af599b6"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "centerYAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutYAxisAnchor", 
+    "id": "fc512bac-e90c-418b-8e73-71e3750a039d"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "firstBaselineAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutYAxisAnchor", 
+    "id": "fba8d196-cee1-4be4-802d-b1985e39dada"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "lastBaselineAnchor", 
+    "class": "UIView", 
+    "type": "NSLayoutYAxisAnchor", 
+    "id": "03733362-e16b-4600-ad1e-3e451c2e88e1"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "constraintsAffectingLayout", 
+    "parameters": "for axis: UILayoutConstraintAxis", 
+    "class": "UIView", 
+    "id": "7ab388ce-1447-454c-b041-a022ebb91705"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "hasAmbiguousLayout", 
+    "class": "UIView", 
+    "type": "Bool", 
+    "id": "d2005ff5-0cba-4441-9f67-9c2b88cd7085"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "exerciseAmbiguityInLayout", 
+    "parameters": "", 
+    "class": "UIView", 
+    "id": "85c7adec-1a3e-4641-8aa3-0ef1e1267863"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "constraintsAffectingLayout", 
+    "parameters": "for axis: UILayoutConstraintAxis", 
+    "class": "UILayoutGuide", 
+    "id": "d923c339-04a3-4cdd-bb53-26b5d467b05b"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "hasAmbiguousLayout", 
+    "class": "UILayoutGuide", 
+    "type": "Bool", 
+    "id": "40339504-bce3-4d0d-9bbe-a486175f6354"
+  }, 
+  {
+    "category": "instance property", 
+    "isAtomic": "true", 
+    "name": "restorationIdentifier", 
+    "class": "UIView", 
+    "type": "String?", 
+    "id": "7fe5ae93-3ee3-40d4-893b-1888089744ec"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "encodeRestorableState", 
+    "parameters": "with coder: NSCoder", 
+    "class": "UIView", 
+    "id": "d1600f8d-296f-4ef4-b5f5-237e93d00b33"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "decodeRestorableState", 
+    "parameters": "with coder: NSCoder", 
+    "class": "UIView", 
+    "id": "4e1444f9-4cb9-44f2-95f4-bc539741d1a1"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "snapshotView", 
+    "parameters": "afterScreenUpdates afterUpdates: Bool", 
+    "class": "UIView", 
+    "id": "7a02dfa7-ac9c-4369-a3c1-fc5f9cde1898"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "resizableSnapshotView", 
+    "parameters": "from rect: CGRect, afterScreenUpdates afterUpdates: Bool, withCapInsets capInsets: UIEdgeInsets", 
+    "class": "UIView", 
+    "id": "e660ac0e-bf36-4554-92ad-676d275cc2f1"
+  }, 
+  {
+    "category": "instance method", 
+    "isAtomic": "true", 
+    "name": "drawHierarchy", 
+    "parameters": "in rect: CGRect, afterScreenUpdates afterUpdates: Bool", 
+    "class": "UIView", 
+    "id": "de59bf15-1f2d-4a43-a3df-de155fb50010"
+  }
+]

@@ -1,4 +1,5 @@
 import uuid
+import json
 current_version = "9.3.1"
 # note the algorithm is to say if ti's a optional type, there must be a ? at the very last char
 def parse_optional(x, result):
@@ -74,6 +75,7 @@ def parse_class():
     classname = raw_input("Enter Classname: ")
     fin = open(classname + '.in', "r")
     fout = open(classname + '.out', "w")
+    nout = open(classname + '.json', "w")
     sout = open(classname + '.swift', "w")
     sout.write("/* MARK: - " + classname + '*/\n')
     print("class " + classname)
@@ -85,6 +87,7 @@ def parse_class():
     class_result["isAtomic"] = ["true"]
     class_result["superclass"] = []
     class_result["protocol"] = []
+    json_output = []
 
     current_state = ""
     count = 0
@@ -138,6 +141,7 @@ def parse_class():
 
         if current_state == "class" or current_state == "extension":
             words = temp.split()
+            print("words", words)
             for word in words:
                 if word == "var":
                     nv_category = ["instance property"]
@@ -325,12 +329,30 @@ def parse_class():
                 print("")
                 #fout.write("[INIT]\n")
                 fout.write(str(result) + '\n')
-
+            newResult = {}
+            if 'name' in result:
+                newResult['name'] = result['name'][0]
+            if 'class' in result:
+                newResult['class'] = result['class'][0]
+            if 'name' in result:
+                newResult['category'] = result['category'][0]
+            if 'type' in result:
+                newResult['type'] = result['type'][0]
+            if 'parameters' in result:
+                newResult['parameters'] = result['parameters'][0]
+            if 'isAtomic' in result:
+                newResult['isAtomic'] = result['isAtomic'][0]
+            if 'id' in result:
+                newResult['id'] = result['id'][0]
+            if len(newResult) > 0:
+                json_output.append(newResult)
     #fout.write("[CLASS]\n")
     #fout.write(class_result)
     print("+++++++++++++++++++++")
     print("+ Thanks for using! +")
     print("+++++++++++++++++++++")
+    json.dump(json_output, nout, indent=2)
+    nout.close()
     fin.close()
     fout.close()
     sout.close()
