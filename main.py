@@ -141,7 +141,6 @@ def parse_class():
 
         if current_state == "class" or current_state == "extension":
             words = temp.split()
-            print("words", words)
             for word in words:
                 if word == "var":
                     nv_category = ["instance property"]
